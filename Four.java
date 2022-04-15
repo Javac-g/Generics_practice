@@ -1,17 +1,17 @@
 public class Four<T> {
 
-    int temp;
-
+    T temp;
+    Four(T temp){
+        this.temp = temp;
+    }
     boolean isHigher(Four<?> object){
 
-        return object.getTemp() > this.temp;
+        return temp.equals(object.getTemp());
     }
 
-    public int getTemp() {
+    public T getTemp() {
         return temp;
     }
 
-    public void setTemp(int temp) {
-        this.temp = temp;
-    }
+
 }
