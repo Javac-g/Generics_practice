@@ -4,6 +4,7 @@ public class Main {
 
         One<Integer> A = new One<Integer>(123);
         One<String> B =  new One<>("Hello");
+        One raw = new One(12334); // Raw Type , used for old,inherited code.
 
         Two<Integer,String> C = new Two<>(1234,"Hello");
         three<Integer>  D = new three<>(1111);
