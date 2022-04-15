@@ -1,4 +1,4 @@
-public class three<T extends Number> {
+public class three<T extends Number> implements Tool<T> {
     T t;
 
     three(T t){
@@ -8,6 +8,10 @@ public class three<T extends Number> {
     }
 
     T getT(){
+        return t;
+    }
+
+    public T func(T t){
         return t;
     }
 }
