@@ -6,6 +6,7 @@ public class One<T> {
         this.ob = ob;
 
     }
+    
 
     public T getOb() {
 
