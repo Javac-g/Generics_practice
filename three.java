@@ -1,6 +1,8 @@
 public class three<T extends Number> implements Tool<T> {
     T t;
 
+    T[] arr;
+
     three(T t){
 
         this.t = t;
@@ -8,6 +10,7 @@ public class three<T extends Number> implements Tool<T> {
     }
 
     T getT(){
+
         return t;
     }
 
