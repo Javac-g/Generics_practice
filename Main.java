@@ -1,4 +1,5 @@
 public class Main {
+
     static void show_one(One<?> ob){
         System.out.println("Class: " + ob.getClass().getName());
         System.out.println("Value: " + ob.getOb());
@@ -9,6 +10,7 @@ public class Main {
         System.out.println("T Value: " + ob.getT());
         System.out.println("V Value: " + ob.getV());
     }
+
     static void show_three(Three<?> ob){
 
         System.out.println(ob.AVG());
