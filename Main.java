@@ -1,8 +1,10 @@
 public class Main {
 
-    static void show_one(One<?> ob){
+    static <T> void show_one(One<T> ob){
+
         System.out.println("Class: " + ob.getClass().getName());
         System.out.println("Value: " + ob.getOb());
+
     }
 
     static void show_two(Two<?,?> ob){
