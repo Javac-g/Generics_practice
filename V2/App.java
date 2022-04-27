@@ -35,6 +35,25 @@ public class App {
         System.out.println("-------------------");
     }
 
+    static void show_XYZT(Map<? extends XYZT> object){
+
+        System.out.println("---- [ 4 D ] ----");
+
+        for(int i = 0 ; i <= object.array.length-1; i++){
+
+            System.out.print("[");
+            System.out.print(object.array[i].x + " ");
+            System.out.print(object.array[i].y + " ");
+            System.out.print(object.array[i].z + " ");
+            System.out.println(object.array[i].t);
+            System.out.println("]");
+        }
+        System.out.println("-------------------");
+
+
+
+    }
+
     public static void main(String...args){
 
 
