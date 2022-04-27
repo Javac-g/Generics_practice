@@ -1,6 +1,5 @@
 package V1;
 
-import sun.java2d.d3d.D3DDrawImage;
 
 public class App {
 
