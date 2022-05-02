@@ -25,7 +25,7 @@ public class App {
                        new High(70),new High(80),new High(90)
         } ;
 
-        System.out.println("Days is higer than: " + num + ": " + run(High::isBigger,days,new High(num)));
+        System.out.println("Days is with temperature bigger than: " + num + ": " + run(High::isBigger,days,new High(num)));
 
 
 

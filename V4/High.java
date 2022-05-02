@@ -18,12 +18,12 @@ public class High {
     }
     boolean isBigger(High object){
 
-        return temp < object.getTemp();
+        return temp > object.getTemp();
 
     }
     boolean isSmaller(High object){
 
-        return temp > object.getTemp();
+        return temp < object.getTemp();
 
     }
 
