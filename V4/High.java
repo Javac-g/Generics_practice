@@ -21,6 +21,11 @@ public class High {
         return temp < object.getTemp();
 
     }
+    boolean isSmaller(High object){
+
+        return temp > object.getTemp();
+
+    }
 
 
     public int getTemp() {
