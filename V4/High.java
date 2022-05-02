@@ -16,7 +16,11 @@ public class High {
 
 
     }
+    boolean isBigger(High object){
 
+        return temp < object.getTemp();
+
+    }
 
 
     public int getTemp() {
