@@ -54,7 +54,8 @@ public class App {
     public static void main(String...args){
 
         XY[] D2 = {new XY(1,2), new XY(1,2)};
-
+        XYZ[] D3 = {new XYZ(1,2,3), new XYZ(1,2,3)};
+        XYZT[] D4 = {new XYZT(1,2,3,4), new XYZT(1,2,3,4)};
 
 
 
