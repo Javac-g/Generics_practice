@@ -53,6 +53,7 @@ public class App {
 
     public static void main(String...args){
 
+        XY[] D2 = {new XY(1,2), new XY(1,2)};
 
 
 
