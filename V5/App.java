@@ -61,6 +61,10 @@ public class App {
         Map<XYZ> third = new Map<>(D3);
         Map<XYZT> fourth = new Map<>(D4);
 
+        show_XY(second);
+        show_XYZ(third);
+        show_XYZT(fourth);
+
 
 
 
