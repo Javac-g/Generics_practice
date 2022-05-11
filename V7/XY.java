@@ -1,7 +1,6 @@
 package V7;
 
-@Project Generics_practice
-@Author Max on 5/11/2022
+
 
 public class XY {
     int x,y;
