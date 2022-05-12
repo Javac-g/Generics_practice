@@ -24,7 +24,7 @@ public class App {
 
     }
     //Tell me what difference ?  between ( Map<? extends XYZ> object)  and  static<T extends xyz> show_XYZ(Map<T> object)
-    static <T extends XYZ> void show_XYZ(Map<T > object){
+    static <T extends XYZ> void show_XYZ(@NotNull Map<T > object){
 
         System.out.println("\n--- [ 3 D ] ---");
 
@@ -40,7 +40,7 @@ public class App {
         }
     }
 
-    static void show_XYZT(Map<? extends XYZT> object){
+    static void show_XYZT(@NotNull Map<? extends XYZT> object){
 
         System.out.println("\n--- [4 D] ---");
         for (int i = 0; i <= object.array.length-1; i++){
