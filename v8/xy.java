@@ -1,7 +1,7 @@
 package v8;
 
 public class xy {
-    Integer x,y;
+    int x,y;
 
     xy(int x, int y){
 
