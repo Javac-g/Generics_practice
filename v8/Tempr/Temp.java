@@ -23,12 +23,12 @@ public class Temp {
     }
     boolean Bigger(Temp ob){
 
-        return ob.getHigh() > high;
+        return ob.getHigh() < high;
 
     }
     boolean Smaller(Temp ob){
 
-        return ob.getHigh() < high;
+        return ob.getHigh() > high;
 
     }
 }
