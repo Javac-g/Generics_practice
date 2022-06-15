@@ -3,7 +3,7 @@ package v9;
 public class App {
     static void show_XY(MAP<? extends XY> object){
         System.out.println(" --- [2 D] ---");
-        for (int i = 0; i <= object.array.length; i++ ){
+        for (int i = 0; i <= object.array.length-1; i++ ){
 
             System.out.print("[" + object.array[i].x + " ");
             System.out.print(object.array[i].y + " ]");
@@ -13,7 +13,7 @@ public class App {
     }
     static void show_XYZ(MAP<? extends XYZ> object){
         System.out.println(" --- [3 D] ---");
-        for (int i = 0; i <= object.array.length; i++ ){
+        for (int i = 0; i <= object.array.length-1; i++ ){
             System.out.print("[" + object.array[i].x + " ");
             System.out.print(object.array[i].y + " ");
             System.out.print(object.array[i].z + " ]");
@@ -23,7 +23,7 @@ public class App {
     }
     static void show_XYZT(MAP<? extends XYZT> object){
         System.out.println(" --- [4 D] ---");
-        for (int i = 0; i <= object.array.length; i++ ){
+        for (int i = 0; i <= object.array.length-1; i++ ){
             System.out.print("[" + object.array[i].x + " ");
             System.out.print(object.array[i].y + " ");
             System.out.print(object.array[i].z + " ");
@@ -41,6 +41,10 @@ public class App {
         MAP<XY> second = new MAP<>(A);
         MAP<XYZ> third = new MAP<>(B);
         MAP<XYZT> fourth = new MAP<>(C);
+
+        show_XY(second);
+        show_XYZ(third);
+        show_XYZT(fourth);
 
 
 
