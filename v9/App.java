@@ -38,6 +38,9 @@ public class App {
         XYZ[] B = {new XYZ(1,2,3), new XYZ(3,2,3), new XYZ(3,3,3)};
         XYZT[] C = {new XYZT(1, 2,3,4), new XYZT(4,3,2,1), new XYZT(4,4,4,4)};
 
+        MAP<XY> second = new MAP<>(A);
+        MAP<XYZ> third = new MAP<>(B);
+        MAP<XYZT> fourth = new MAP<>(C);
 
 
 
