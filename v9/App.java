@@ -5,7 +5,7 @@ public class App {
         System.out.println(" --- [2 D] ---");
         for (int i = 0; i <= object.array.length-1; i++ ){
 
-            System.out.print("[" + object.array[i].x + " ");
+            System.out.print("[ " + object.array[i].x + " ");
             System.out.print(object.array[i].y + " ]");
         }
         System.out.println("\n");
@@ -14,7 +14,7 @@ public class App {
     static void show_XYZ(MAP<? extends XYZ> object){
         System.out.println(" --- [3 D] ---");
         for (int i = 0; i <= object.array.length-1; i++ ){
-            System.out.print("[" + object.array[i].x + " ");
+            System.out.print("[ " + object.array[i].x + " ");
             System.out.print(object.array[i].y + " ");
             System.out.print(object.array[i].z + " ]");
         }
@@ -24,7 +24,7 @@ public class App {
     static void show_XYZT(MAP<? extends XYZT> object){
         System.out.println(" --- [4 D] ---");
         for (int i = 0; i <= object.array.length-1; i++ ){
-            System.out.print("[" + object.array[i].x + " ");
+            System.out.print("[ " + object.array[i].x + " ");
             System.out.print(object.array[i].y + " ");
             System.out.print(object.array[i].z + " ");
             System.out.print(object.array[i].t + " ]");
