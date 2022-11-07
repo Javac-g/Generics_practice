@@ -15,9 +15,9 @@ public class One <T>{
 
     }
 
-    public void  show(T object){
-        System.out.println(object.getClass());
-        System.out.println(object.getClass().getName());
+    public void  show(){
+        System.out.println(" " + object.getClass());
+        System.out.println(" " + object.getClass().getName());
     }
 
 
