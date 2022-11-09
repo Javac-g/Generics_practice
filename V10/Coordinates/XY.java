@@ -1,4 +1,4 @@
-package V10;
+package V10.Coordinates;
 
 public class XY {
     int x , y;

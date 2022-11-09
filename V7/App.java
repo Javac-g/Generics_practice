@@ -23,7 +23,7 @@ public class App {
 
 
     }
-    //Tell me what difference ?  between ( Map<? extends XYZ> object)  and  static<T extends xyz> show_XYZ(Map<T> object)
+    //Tell me what difference ?  between ( Trash.Map<? extends Trash.XYZ> object)  and  static<T extends xyz> show_XYZ(Trash.Map<T> object)
     static <T extends XYZ> void show_XYZ(@NotNull Map<T > object){
 
         System.out.println("\n--- [ 3 D ] ---");

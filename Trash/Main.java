@@ -1,3 +1,5 @@
+package Trash;
+
 public class Main {
 
     static <T> void show_one(One<T> ob){

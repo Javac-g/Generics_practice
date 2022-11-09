@@ -1,3 +1,5 @@
+package Trash;
+
 public class Three<T extends Number> {
     T[] arr;
 

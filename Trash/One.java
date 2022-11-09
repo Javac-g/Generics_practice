@@ -1,3 +1,5 @@
+package Trash;
+
 public class One<T> {
 
     T ob;

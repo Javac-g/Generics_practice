@@ -1,4 +1,4 @@
-package V10;
+package V10.Coordinates;
 
 public class Map <T>{
     T[] coords;

@@ -1,3 +1,5 @@
+package Trash;
+
 public class MainTwo {
 
 

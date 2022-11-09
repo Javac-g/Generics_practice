@@ -1,3 +1,5 @@
+package Trash;
+
 public class Five<T extends Comparable<T>> implements MinMax {
 
     T[] arr;

@@ -1,3 +1,5 @@
+package Trash;
+
 public class XYZT extends XYZ {
     int t;
 

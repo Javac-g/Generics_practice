@@ -1,3 +1,5 @@
+package Trash;
+
 public class Main_Three {
 
     public static void main(String...args){
