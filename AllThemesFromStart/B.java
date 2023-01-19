@@ -7,9 +7,10 @@ public class B {
         this.o = o;
     }
 
-    public void setO(Object o) {
-        this.o = o;
+    public Object getO() {
+        return o;
     }
+
     public void show(){
         System.out.println(o.getClass().getSimpleName());
     }
