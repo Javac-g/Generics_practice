@@ -15,6 +15,11 @@ public class Main {
         //Class with 2 params
         C<String,Integer> one = new C<>("Hello",321);
         one.show();
+        //Extended types
+        Integer[] nums = {1,2,3,4,5};
+        One<Integer> two = new One<>(nums);
+        double d = two.average();
+        System.out.println("5 average: " + d);
 
     }
 }
