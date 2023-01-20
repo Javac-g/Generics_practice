@@ -13,4 +13,10 @@ public class One <T extends Number>{
         }
         return sum / nums.length;
     }
+    boolean sameAvg(One<?> one){
+        if (average() == one.average()){
+            return true;
+        }
+        return false;
+    }
 }
