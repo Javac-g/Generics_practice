@@ -11,7 +11,10 @@ public class Main {
         String strstr = (String)strOb.getO();
 
         iob = strOb;
-        v = (Integer) iob.getO();
+        //v = (Integer) iob.getO();! throws runtime exception !
+        //Class with 2 params
+        C<String,Integer> one = new C<>("Hello",321);
+        one.show();
 
     }
 }
