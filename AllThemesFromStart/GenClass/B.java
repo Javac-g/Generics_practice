@@ -1,7 +1,7 @@
-package AllThemesFromStart;
+package AllThemesFromStart.GenClass;
 
 public class B {
-    Object o;
+    private Object o;
 
     public B(Object o){
         this.o = o;

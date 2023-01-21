@@ -1,6 +1,6 @@
-package AllThemesFromStart;
+package AllThemesFromStart.MetasymbolArgs;
 
-public class MainTwo {
+public class Main {
     public static void main(String...args){
         Integer[] inums = {1,2,3,4,5};
         Double[] dnums = {1.1,2.2,3.3,4.4,5.5};

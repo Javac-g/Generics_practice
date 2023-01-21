@@ -1,4 +1,4 @@
-package AllThemesFromStart;
+package AllThemesFromStart.ExtendedMetasymbolArgs;
 
 public class XYZ extends XY{
 

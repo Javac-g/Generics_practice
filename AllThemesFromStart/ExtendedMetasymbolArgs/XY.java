@@ -1,4 +1,4 @@
-package AllThemesFromStart;
+package AllThemesFromStart.ExtendedMetasymbolArgs;
 
 public class XY {
     protected int x , y;

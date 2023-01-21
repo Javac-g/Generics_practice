@@ -1,4 +1,9 @@
-package AllThemesFromStart;
+package AllThemesFromStart.GenClass;
+
+import AllThemesFromStart.MetasymbolArgs.One;
+import AllThemesFromStart.GenClass.A;
+import AllThemesFromStart.GenClass.B;
+import AllThemesFromStart.GenClass.C;
 
 public class Main {
     public static void main(String...args){

@@ -1,4 +1,4 @@
-package AllThemesFromStart;
+package AllThemesFromStart.GenClass;
 
 public class A<T> {
     private final T param;
@@ -9,7 +9,7 @@ public class A<T> {
     public T getParam(){
         return param;
     }
-    void showType(){
+    public void showType(){
         System.out.println(param.getClass().getSimpleName());
     }
 }
