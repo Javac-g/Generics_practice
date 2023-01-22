@@ -11,5 +11,7 @@ public class Main {
         String s = two.getOb();
         Double d = (Double) raw.getOb();//require type bounding to extract value.
         int ir = (Integer) raw.getOb(); //Throws error.
+        two = raw;
+        String str = two.getOb();//Throws error.
     }
 }
