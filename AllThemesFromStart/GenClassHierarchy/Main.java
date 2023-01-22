@@ -2,8 +2,9 @@ package AllThemesFromStart.GenClassHierarchy;
 
 public class Main {
     public static void main(String...args){
-
-        Two<Integer> one = new Two<>(222);
+        Three<Integer,String> three = new Three<>(333,"Hello");
+        three.showType();
+        Two<String> one = new Two<>("222");
         one.showType();
     }
 }
