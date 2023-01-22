@@ -1,11 +1,10 @@
 package AllThemesFromStart.GenTypesCasting;
 
-public class Two <T> extends One{
+public class Two <T> extends One<T>{
     T t;
 
-    public Two(int num,T t) {
-        super(num);
-        this.t=t;
+    public Two(T t) {
+        super(t);
     }
 
 

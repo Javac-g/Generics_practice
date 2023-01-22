@@ -1,13 +1,13 @@
 package AllThemesFromStart.GenTypesCasting;
 
-public class One{
-    protected int t;
+public class One<T>{
+    protected T t;
 
-    public One(int t) {
+    public One(T t) {
         this.t = t;
     }
 
-    public int getT() {
+    public T getT() {
         return t;
     }
 }
