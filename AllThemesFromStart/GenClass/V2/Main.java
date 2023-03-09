@@ -24,9 +24,14 @@ public class Main {
 
         int a = (Integer) bone.getOb();
         String b = (String) btwo.getOb();
-
+        /*
         bone = btwo;//types weakness
         a = (Integer) bone.getOb();//runtime error
+        */
+
+        //next
+        C<String ,Integer> cone = new C<>("Hello",3256);
+        cone.show();
 
     }
 }
