@@ -1,4 +1,4 @@
-package AllThemesFromStart.GenClass;
+package AllThemesFromStart.GenClass.V1;
 
 public class C <T,V>{
     private T t ;
