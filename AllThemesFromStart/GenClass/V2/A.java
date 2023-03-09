@@ -12,5 +12,6 @@ public class A <T>{
     }
     public void show(){
         System.out.println("Class: " + ob.getClass().getSimpleName());
+
     }
 }
