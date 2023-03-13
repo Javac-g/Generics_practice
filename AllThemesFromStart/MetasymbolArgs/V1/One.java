@@ -1,4 +1,4 @@
-package AllThemesFromStart.MetasymbolArgs;
+package AllThemesFromStart.MetasymbolArgs.V1;
 
 public class One <T extends Number>{
     private T[] nums;

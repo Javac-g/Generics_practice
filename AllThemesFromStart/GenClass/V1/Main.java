@@ -1,6 +1,6 @@
 package AllThemesFromStart.GenClass.V1;
 
-import AllThemesFromStart.MetasymbolArgs.One;
+import AllThemesFromStart.MetasymbolArgs.V1.One;
 
 public class Main {
     public static void main(String...args){
