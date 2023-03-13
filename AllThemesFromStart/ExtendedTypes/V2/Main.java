@@ -12,5 +12,9 @@ public class Main {
         System.out.println("One average: " + one.average());
         System.out.println("Two average: " + two.average());
 
+        Second second = new Second();
+        Third third = new Third();
+
+        First<Third> good = new First<>(third);
     }
 }
