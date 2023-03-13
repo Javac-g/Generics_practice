@@ -1,4 +1,4 @@
-package AllThemesFromStart.ExtendedMetasymbolArgs;
+package AllThemesFromStart.ExtendedMetasymbolArgs.V1;
 
 public class Map <T extends XY>{
     private T[] coords;
