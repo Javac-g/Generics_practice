@@ -1,4 +1,4 @@
-package AllThemesFromStart.GenInterfaces;
+package AllThemesFromStart.GenInterfaces.V1;
 
 public class One <T extends Comparable<T>> implements MinMax<T>{
     private T[] vals;

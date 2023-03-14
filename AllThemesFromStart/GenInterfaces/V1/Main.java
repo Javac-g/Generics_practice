@@ -1,4 +1,4 @@
-package AllThemesFromStart.GenInterfaces;
+package AllThemesFromStart.GenInterfaces.V1;
 
 public class Main {
     public static void main(String...args){
