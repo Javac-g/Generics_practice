@@ -1,4 +1,4 @@
-package AllThemesFromStart.RawTypes;
+package AllThemesFromStart.RawTypes.V1;
 
 public class Main {
     public static void main(String...args){
