@@ -1,4 +1,4 @@
-package AllThemesFromStart.GenMethods;
+package AllThemesFromStart.GenMethods.V1;
 
 public class One {
     static <T extends Comparable<T>,V extends T> boolean isIn(T x,V[] arr){
