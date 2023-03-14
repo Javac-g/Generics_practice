@@ -1,4 +1,4 @@
-package AllThemesFromStart.GenConstructors;
+package AllThemesFromStart.GenConstructors.V1;
 
 public class Main {
     public static void main(String...args){
