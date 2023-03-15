@@ -8,4 +8,7 @@ public class One <T>{
     public T getOb(){
         return ob;
     }
+    public void showType(){
+        System.out.println("Parent type: " + ob.getClass().getSimpleName());
+    }
 }
