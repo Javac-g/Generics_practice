@@ -1,4 +1,4 @@
-package AllThemesFromStart.GenClassHierarchy;
+package AllThemesFromStart.GenClassHierarchy.V1;
 
 public class One<T> {
     protected  final T ob;

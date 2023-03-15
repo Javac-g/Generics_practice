@@ -1,4 +1,4 @@
-package AllThemesFromStart.GenClassHierarchy;
+package AllThemesFromStart.GenClassHierarchy.V1;
 
 public class Three <T,V> extends One<T>{
     private final V v;
