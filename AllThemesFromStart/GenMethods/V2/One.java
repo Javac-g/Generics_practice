@@ -2,7 +2,7 @@ package AllThemesFromStart.GenMethods.V2;
 
 public class One {
 
-    static <T extends Comparable<T>, V extends T> boolean isIn(V[] y,T x){
+    public <T extends Comparable<T>, V extends T> boolean isIn(V[] y,T x){
         for(int i = 0; i < y.length;i++){
             if (x.equals(y[i]))return true;
         }
@@ -15,10 +15,10 @@ public class One {
 
         String[] words = new String[]{"Hello","My","Name","Is","Max"};
         String[] str = {"Hello","Is"};
-
+        One disp = new One();
         for (int i = 0;i < nums.length;i++){
-            boolean flag = isIn(vars,nums[i]);
-            boolean flag2 = One.<String,String>isIn(str,words[i]);
+            boolean flag = disp.isIn(vars,nums[i]);
+            boolean flag2 = disp.<String,String>isIn(str,words[i]);
 
             if (flag2) {
 
