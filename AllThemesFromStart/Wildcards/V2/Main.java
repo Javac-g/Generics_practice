@@ -1,4 +1,4 @@
-package AllThemesFromStart.MetasymbolArgs.V2;
+package AllThemesFromStart.Wildcards.V2;
 
 public class Main {
     public static void main(String...args){

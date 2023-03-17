@@ -1,4 +1,4 @@
-package AllThemesFromStart.MetasymbolArgs.V2;
+package AllThemesFromStart.Wildcards.V2;
 
 public class Stats <T extends Number>{
     T[] nums;
