@@ -17,6 +17,12 @@ public class Main {
         System.out.println(one.isSameC(three));// Stats<?> - wildcart will accept Stats with any type
         System.out.println(one.isSameA(three));// generify method
         System.out.println(one.isSameB(three));
+        System.out.println(one.isSameC(two));// Stats<?> - wildcart will accept Stats with any type
+        System.out.println(one.isSameA(two));// generify method
+        System.out.println(one.isSameB(two));
+        System.out.println(one.isSameC(one));// Stats<?> - wildcart will accept Stats with any type
+        System.out.println(one.isSameA(one));// generify method
+        System.out.println(one.isSameB(one));
     }
 
 
