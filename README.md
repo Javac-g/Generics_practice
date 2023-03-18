@@ -26,6 +26,5 @@ This chapter have parts:
 <img src="https://github.com/Javac-g/Generics_practice/blob/master/pngwing.com%20(1).png"/> Erasing.
 
 <img src="https://github.com/Javac-g/Generics_practice/blob/master/pngwing.com%20(1).png"/> Generic class hierarchy.
-- 
----
+
 
