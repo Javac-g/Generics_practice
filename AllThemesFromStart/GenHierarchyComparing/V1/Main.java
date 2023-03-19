@@ -1,10 +1,11 @@
-package AllThemesFromStart.GenHierarchyComparing;
+package AllThemesFromStart.GenHierarchyComparing.V1;
 
-public class Main {
+public class    Main {
     public static void main(String...args){
         One<Integer> A = new One<>(123);
         Two<Integer> B = new Two<>(321);
         Two<String> C = new Two<>("Hello");
+
         if (A instanceof Two<?> )System.out.println("A is instance of Two");
         if (A instanceof One<?>)System.out.println("A is instance of One");
         if (B instanceof Two<?> )System.out.println("B is instance of Two");

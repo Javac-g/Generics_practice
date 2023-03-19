@@ -1,4 +1,4 @@
-package AllThemesFromStart.GenHierarchyComparing;
+package AllThemesFromStart.GenHierarchyComparing.V1;
 
 public class One<T> {
     protected T t;

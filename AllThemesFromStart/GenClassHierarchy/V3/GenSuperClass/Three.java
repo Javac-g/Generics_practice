@@ -11,4 +11,10 @@ public class Three <T extends Number, V> extends One<T>{
         return ob2;
     }
 
+    @Override
+    public void show() {
+        super.show();
+        System.out.println("Child T: " + getOb().getClass().getSimpleName());
+        System.out.println("Child V: " + getOb2().getClass().getSimpleName());
+    }
 }
