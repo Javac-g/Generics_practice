@@ -1,6 +1,6 @@
-package AllThemesFromStart.GenClassHierarchy.V3.GenSubClass;
+package AllThemesFromStart.GenClassHierarchy.V3.GenSuperClass;
 
-public class Three <T , V> extends One<T>{
+public class Three <T extends Number, V> extends One<T>{
     private final V ob2;
 
     public Three(T ob,V ob2){

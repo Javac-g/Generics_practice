@@ -1,12 +1,11 @@
 package AllThemesFromStart.GenClassHierarchy.V3.GenSubClass;
 
-public class One <T>{
-    private T ob;
-    public One(T ob){
-        this.ob = ob;
+public class One {
+    private final Integer num;
+    public One(Integer num){
+        this.num = num;
     }
-    public T getOb(){
-        return ob;
+    public Integer getNum(){
+        return num;
     }
-
 }

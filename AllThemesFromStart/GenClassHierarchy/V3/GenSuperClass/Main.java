@@ -1,4 +1,4 @@
-package AllThemesFromStart.GenClassHierarchy.V3.GenSubClass;
+package AllThemesFromStart.GenClassHierarchy.V3.GenSuperClass;
 
 public class Main {
     public static void main(String[] args) {
