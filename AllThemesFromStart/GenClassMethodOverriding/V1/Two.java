@@ -1,4 +1,4 @@
-package AllThemesFromStart.GenClassMethodOverriding;
+package AllThemesFromStart.GenClassMethodOverriding.V1;
 
 public class Two <T> extends One<T>{
     public Two(T ob) {

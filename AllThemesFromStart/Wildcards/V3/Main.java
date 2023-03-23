@@ -13,7 +13,7 @@ public class Main {
         Stats<Double> four = new Stats<>(n2);
         System.out.println(Arrays.toString(one.getNums()));
         System.out.println(one.isSameA(two));//same class type
-        //System.out.println(one.isSameOnly(three)); will not work because one - T - integer require same T in method
+        //System.out.println(one.isSameOnly(Three)); will not work because one - T - integer require same T in method
         System.out.println(one.isSameC(three));// Stats<?> - wildcart will accept Stats with any type
         System.out.println(one.isSameA(three));// generify method
         System.out.println(one.isSameB(three));
