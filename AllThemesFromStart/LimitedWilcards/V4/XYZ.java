@@ -2,7 +2,7 @@ package AllThemesFromStart.LimitedWilcards.V4;
 
 public class XYZ extends XY{
 
-    protected final int z;
+    protected final Integer z;
 
     public XYZ(int x, int y, int z){
         super(x,y);
