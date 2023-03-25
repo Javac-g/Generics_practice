@@ -1,4 +1,4 @@
-package AllThemesFromStart.BridgeMethods;
+package AllThemesFromStart.BridgeMethods.V1;
 
 public class One <T>{
     protected final T t;

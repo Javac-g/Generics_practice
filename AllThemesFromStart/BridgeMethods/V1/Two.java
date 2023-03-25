@@ -1,4 +1,4 @@
-package AllThemesFromStart.BridgeMethods;
+package AllThemesFromStart.BridgeMethods.V1;
 
 public class Two extends One<String>{
     public Two(String str){

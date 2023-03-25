@@ -1,4 +1,4 @@
-package AllThemesFromStart.BridgeMethods;
+package AllThemesFromStart.BridgeMethods.V1;
 
 public class Main {
     public static void main(String...args){
