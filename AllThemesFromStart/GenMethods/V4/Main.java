@@ -14,6 +14,7 @@ public class Main {
 
         for (int i = 0;i < vals.length;i++){
             boolean flag = isIn(vals,nums[i]);
+            boolean flag2 = Main.<Integer,Integer>isIn(vals,nums[i]);
 
             if (flag){
                 System.out.println(flag + ": " + nums[i]);

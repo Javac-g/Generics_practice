@@ -72,8 +72,10 @@ public class Main {
 
         showXYZT(dimensionOb4D);
 
+        Main.<XYZT>altShowXYZT(dimensionOb4D);//Old form
+
+        Main.<XYZT,Map<XYZT>>altShowXYZT2(dimensionOb4D);// FInd this interesting to know
         altShowXYZT(dimensionOb4D);
         altShowXYZT2(dimensionOb4D);
-
     }
 }
