@@ -3,7 +3,7 @@ package AllThemesFromStart.GenMethods.V3;
 public class Main {
     public static <T extends Comparable<T>,V extends T> boolean isIn(V[] arr,T x){
         for (int i = 0 ; i < arr.length;i++){
-            if (x.equals(arr[i]))return true;
+            return x.equals(arr[i]);
         }
         return false;
     }
