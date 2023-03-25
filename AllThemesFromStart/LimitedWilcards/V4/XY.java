@@ -1,8 +1,8 @@
 package AllThemesFromStart.LimitedWilcards.V4;
 
 public class XY {
-    private final Integer x;
-    private final Integer y;
+    protected final Integer x;
+    protected final Integer y;
 
     public XY(int x, int y){
         this.x = x;
