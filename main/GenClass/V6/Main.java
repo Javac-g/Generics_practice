@@ -15,6 +15,13 @@ public class Main {
         System.out.println("Value: " + v2);
         o2.show();
 
+        Two<String,Double> two = new Two<>("Hallo",543.0);
+        double tv2 = two.getVal2();
+        System.out.println("Value V: " + tv2);
+        String tv1 = two.getVal1();
+        System.out.println("Value T: " + tv1);
+        two.show();
+
 
 
 
