@@ -9,7 +9,7 @@ public class Main {
         Stats<Integer> one = new Stats<>(nums1);
         Stats<Double> two = new Stats<>(nums2);
 
-        System.out.println("One average: " + one.average());
+        System.out.println("ArgumentClass average: " + one.average());
         System.out.println("Two average: " + two.average());
 
         Second second = new Second();

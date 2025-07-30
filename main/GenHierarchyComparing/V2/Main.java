@@ -9,9 +9,9 @@ public class Main {
 
 
 
-        if (one instanceof One<?>) System.out.println("One is instance of One");
-        if (one instanceof Two<?,?>) System.out.println("One is instance of Two");
-        if (two instanceof One<?>) System.out.println("Two is instance of One");
+        if (one instanceof One<?>) System.out.println("ArgumentClass is instance of ArgumentClass");
+        if (one instanceof Two<?,?>) System.out.println("ArgumentClass is instance of Two");
+        if (two instanceof One<?>) System.out.println("Two is instance of ArgumentClass");
         if (two instanceof Two<?,?>) System.out.println("Two is instance of Two");
 
 

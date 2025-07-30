@@ -6,7 +6,7 @@ public class Main {
         One<Integer> one = new One<>(42144);
         Two<Float,Double> two = new Two<>(12.33F,22.3);
 
-        System.out.println("Class One: ");
+        System.out.println("Class ArgumentClass: ");
         one.show();
 
         System.out.println("Class Two: ");

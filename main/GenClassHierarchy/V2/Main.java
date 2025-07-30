@@ -10,13 +10,13 @@ public class Main {
         Two<String> strOb2 = new Two<>("hello");
 
         if (iob2  instanceof  Two<?>) System.out.println("Iob2: Two" );
-        if (iob2 instanceof One<?>)System.out.println("Iob2: One");
+        if (iob2 instanceof One<?>)System.out.println("Iob2: ArgumentClass");
 
         if (iob instanceof Two<?>)System.out.println("Iob: Two");
-        if (iob instanceof One<?>)System.out.println("Iob One");
+        if (iob instanceof One<?>)System.out.println("Iob ArgumentClass");
 
         if (strOb2 instanceof Two<?>)System.out.println("strOb2: Two");
-        if (strOb2 instanceof One<?>)System.out.println("strOb2 One");
+        if (strOb2 instanceof One<?>)System.out.println("strOb2 ArgumentClass");
 
 
 

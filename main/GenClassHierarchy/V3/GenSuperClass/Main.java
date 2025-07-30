@@ -6,7 +6,7 @@ public class Main {
         Two<Double> B = new Two<Double>(2231.1);
         Three<Integer,String> C = new Three<>(12345,"Hello");
 
-        System.out.println("Class One: ");
+        System.out.println("Class ArgumentClass: ");
         A.show();
 
         System.out.println("Class Two: ");

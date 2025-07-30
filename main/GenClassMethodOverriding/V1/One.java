@@ -8,7 +8,7 @@ public class One <T>{
     }
 
     public T getOb() {
-        System.out.println("CLass One");
+        System.out.println("CLass ArgumentClass");
         return ob;
     }
 }

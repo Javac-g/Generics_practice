@@ -9,8 +9,8 @@ public class Main {
         Stats<Integer> one = new Stats<>(n1);
         Stats<Double> two = new Stats<>(n2);
 
-        System.out.println("One max: " + one.max());
-        System.out.println("One min: " + one.min());
+        System.out.println("ArgumentClass max: " + one.max());
+        System.out.println("ArgumentClass min: " + one.min());
 
         System.out.println("Two max: " + two.max());
         System.out.println("Two min: " + two.min());

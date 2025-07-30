@@ -7,11 +7,11 @@ public class    Main {
         Two<String> C = new Two<>("Hello");
 
         if (A instanceof Two<?> )System.out.println("A is instance of Two");
-        if (A instanceof One<?>)System.out.println("A is instance of One");
+        if (A instanceof One<?>)System.out.println("A is instance of ArgumentClass");
         if (B instanceof Two<?> )System.out.println("B is instance of Two");
-        if (B instanceof One<?>)System.out.println("B is instance of One");
+        if (B instanceof One<?>)System.out.println("B is instance of ArgumentClass");
         if (C instanceof Two<?> )System.out.println("C is instance of Two");
-        if (C instanceof One<?>)System.out.println("C is instance of One");
+        if (C instanceof One<?>)System.out.println("C is instance of ArgumentClass");
 
     }
 }

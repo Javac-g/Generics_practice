@@ -3,7 +3,7 @@ package main.LimitedTypes.V3;
 public class One <T extends Number>{
 
     // T extends Number its upper limit - Number and subclass
-    // This prevents creating  version of class One with non-number type T
+    // This prevents creating  version of class ArgumentClass with non-number type T
     private final T[] nums;
     public One(T[] nums){
         this.nums = nums;

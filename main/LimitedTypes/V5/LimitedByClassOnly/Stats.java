@@ -1,4 +1,4 @@
-package main.LimitedTypes.V5;
+package main.LimitedTypes.V5.LimitedByClassOnly;
 
 public class Stats <T extends Number> {
     T[] nums;

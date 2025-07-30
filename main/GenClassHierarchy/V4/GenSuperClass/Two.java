@@ -2,7 +2,7 @@ package main.GenClassHierarchy.V4.GenSuperClass;
 
 public class Two <T extends Number,V> extends One<T>{
     //passed Type to SuperClass from left to right.
-    // Can be Two extends One<Integer>
+    // Can be Two extends ArgumentClass<Integer>
     private final V ob2;
     public Two(T ob,V ob2){
         super(ob);
